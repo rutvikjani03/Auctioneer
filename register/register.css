@@ -1,0 +1,78 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #f4f4f4;
+  background-image: url(/photos/new1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 30%; /* Adjusted for smaller screens */
+  margin: 3.125rem auto; /* 50px equivalent */
+  padding: 1.25rem; /* 20px equivalent */
+  background-color: #ffffff21;
+  border-radius: 0.3125rem; /* 5px equivalent */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.25rem; /* 20px equivalent */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.3125rem; /* 5px equivalent */
+}
+
+.form-group input {
+  width: 90%;
+  padding: 0.625rem; /* 10px equivalent */
+  background-color: #ffffff1a;
+  border-radius: 0.1875rem; /* 3px equivalent */
+  border: 1px solid #ccc;
+}
+
+.form-group select {
+  width: 95%;
+  padding: 0.625rem; /* 10px equivalent */
+  background-color: #ffffff1a;
+  border-radius: 0.1875rem; /* 3px equivalent */
+  border: 1px solid #ccc;
+}
+
+.form-group select option {
+  width: 100%;
+  padding: 0.625rem; /* 10px equivalent */
+  background-color: #ffffff1a;
+  border-radius: 0.1875rem; /* 3px equivalent */
+  border: 1px solid #ccc;
+}
+
+button {
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0.625rem 12.5rem; /* 10px 200px equivalent */
+  background-color: #38699e;
+  margin: 1.25rem auto; /* 20px equivalent */
+  color: #fff;
+  border: none;
+  border-radius: 0.1875rem; /* 3px equivalent */
+  cursor: pointer;
+}
+
+/* Media query for max width 500px */
+@media (max-width: 500px) {
+  body {
+    padding: 1rem; /* 16px equivalent */
+  }
+
+  .container {
+    margin: 1.25rem auto; /* 20px equivalent */
+    max-width: 80%;
+  }
+
+  button {
+    padding: 0.625rem 7rem; /* 10px 150px equivalent */
+    margin: 1.25rem auto; /* 20px equivalent */
+  }
+}

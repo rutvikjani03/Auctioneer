@@ -1,0 +1,102 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f018;
+    margin: 0;
+    padding: 20px;
+      background-image: url(/photos/new1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+  }
+  
+  h3 {
+    text-align: center;
+    color: #f0ecf4;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff62;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  input[type="datetime-local"],
+  input[type="file"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc28;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff21;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    padding: 20px 80px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #3214de;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  input[type="file"] {
+    padding: 4px;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button {
+    background-color: #4CAF50;
+    color: #ffffff1d;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="file"]::before {
+    content: "Upload Image";
+    color: #333;
+  }
+  
+  input[type="file"]:hover::before {
+    color: #45a049;
+  }
+  
+  input[type="file"]:focus::before {
+    color: #4CAF50;
+  }
+  
+  @media (max-width :500px) {
+    form {
+      max-width: 275px;
+      margin: 50px auto;
+      background-color: #ffffff62;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  }

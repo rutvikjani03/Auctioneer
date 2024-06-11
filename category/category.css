@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/photos/new1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 6.25rem; 
+    width: 100vw;
+    background-color: rgba(6, 6, 243, 0.75);
+    display: flex;
+    align-items: center;
+}
+
+main {
+    padding-top: 3.125rem; 
+    height: 75rem; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem; 
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #e8e8ef;
+    text-align: center;
+    height: 25rem; 
+    width: calc(33% - 1.25rem); 
+}
+
+.container div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container img {
+    border-radius: 15px;
+    border: 2px solid black;
+    height: 15.625rem; 
+    width: 15.625rem;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i {
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-decoration: underline;
+    margin-left: 43rem;
+    margin-bottom: 1rem;
+}
+
+h3{
+    color: white;
+}
+
+
+@media (max-width: 500px) {
+
+    h2{
+        color: white;
+        text-decoration: underline;
+        margin-left: 8.5rem;
+        margin-bottom: 1rem;
+    }
+
+    header {
+        height: 5rem;
+    }
+
+    main {
+        padding-top: 2rem; 
+        height: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem; 
+    }
+
+    .container > div {
+        width: 90%;
+        height: auto;
+        font-size: 1rem; 
+    }
+
+    .container img {
+        height: 12.5rem; 
+        width: 12.5rem;
+    }
+}

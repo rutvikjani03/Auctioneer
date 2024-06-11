@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 6.25rem; 
+    width: 100vw;
+    background-color: rgba(20, 20, 196, 0.632);
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-image: url(/photos/new1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background: rgba(231, 231, 196, 0.064);
+    font-size: 0.875rem; 
+    width: 80%;
+    margin: 3.125rem auto; 
+    border-radius: 0.3125rem; /
+}
+
+.container h3 {
+    font-size: 1.875rem; 
+    color: #182982;
+}
+
+.contact {
+    display: flex;
+}
+
+.left {
+    flex-basis: 60%;
+    padding: 2.5rem 3.75rem; 
+}
+
+.right {
+    flex-basis: 40%;
+    padding: 2.5rem; 
+    background: #9be9a91a;
+    border-radius: 0.3125rem; 
+}
+
+.rows {
+    padding-top: 1.25rem; 
+}
+
+.inputg {
+    padding-top: 1.875rem; 
+}
+
+input {
+    height: 1.5625rem; 
+    width: 25rem; 
+    border: none;
+    outline: none;
+    border-radius: 0.625rem; 
+    border-bottom: 1px solid black;
+    padding: 0.625rem; 
+    color: wheat;
+    background: rgba(231, 231, 196, 0.151);
+}
+
+label {
+    font-size: 1.5625rem;
+    color: rgb(204, 207, 220);
+    font-weight: 20px;
+}
+
+button {
+    border-radius: 0.625rem;
+    padding: 0.5rem 1.875rem; 
+    background-color: #b9bcc7;
+    font-size: 1.4375rem; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coloum {
+    padding-top: 2.1875rem; 
+    font-size: 1.25rem; 
+}
+
+.phone {
+    padding-bottom: 1.875rem;
+}
+
+.mail {
+    padding-bottom: 1.875rem; 
+}
+
+.address {
+    padding-bottom: 1.875rem; 
+}
+
+h4 {
+    font-size: 1.5625rem; 
+    color: rgb(200, 201, 208);
+}
+
+h5 {
+    font-size: 1.25rem; 
+}
+
+footer {
+    height: 3.75rem; 
+    width: 100vw;
+    background-color: rgba(16, 16, 187, 0.901);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+@media (max-width: 500px) {
+    header {
+        height: 5rem;
+    }
+
+    .container {
+        width: 80%; 
+        margin: 1.875rem auto; 
+        font-size: 0.75rem; 
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        flex-basis: 100%;
+        padding: 1.25rem; 
+    }
+
+    input {
+        width: 90%; 
+        font-size: 0.875rem; 
+    }
+
+    label {
+        font-size: 1.25rem;
+    }
+
+    button {
+        font-size: 1.25rem; 
+    }
+
+    .coloum {
+        font-size: 1rem; 
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1rem; 
+    }
+
+    footer {
+        height: 3.75rem; 
+    }
+}

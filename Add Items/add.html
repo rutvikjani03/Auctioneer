@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Items</title>
+    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="add.css">
+    <script src="add.js"></script>
+    
+</head>
+<body>
+
+    <h3>Add Item </h3>
+
+    <form >
+        <label for="item_name">Item Name:</label><br>
+        <input type="text" id="item_name" name="item_name" required><br><br>
+        
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="starting_price">Starting Price:</label><br>
+        <input type="number" id="starting_price" name="starting_price" min="0.01" step="0.01" required><br><br>
+        
+        <label for="reserve_price">Reserve Price:</label><br>
+        <input type="number" id="reserve_price" name="reserve_price" min="0.01" step="0.01" required><br><br>
+        
+        <label for="end_date">Auction End Date:</label><br>
+        <input type="datetime-local" id="end_date" name="end_date" required><br><br>
+        
+        <label for="image_upload">Upload Image:</label><br>
+        <input type="file" id="image_upload" name="image_upload" accept="image/*" required><br><br> 
+
+        
+
+        
+        
+        <input type="submit" value="Submit">
+      </form>
+
+      <hr style="color: black;">
+
+      <div id="submittedData"></div>
+
+      <script>
+        document.getElementById('myForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var formData = new FormData(this);
+            var submittedData = '<h2>Submitted Data:</h2>';
+            for (var pair of formData.entries()) {
+                submittedData += '<p><strong>' + pair[0] + ':</strong> ' + pair[1] + '</p>';
+            }
+            document.getElementById('submittedData').innerHTML = submittedData;
+            this.reset(); // Optional: Reset the form after submission
+        });
+    </script>
+
+</body>
+</html>

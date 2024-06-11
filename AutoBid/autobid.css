@@ -1,0 +1,113 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(/photos/new1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
+
+.bidding-container {
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff34;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.bidding-item {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.bid-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bid-button:hover {
+    background-color: #0056b3;
+}
+
+@keyframes bidPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.live-bid {
+    animation: bidPulse 1s infinite alternate;
+}
+
+.bidding-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: white;
+}
+
+/* Media query for max width 500px */
+@media (max-width: 500px) {
+    body {
+        padding: 1rem; /* 16px equivalent */
+    }
+
+    .one,
+    .two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bidding-container {
+        max-width: 100%; /* Adjust width for small screens */
+        margin: 1.25rem 0; /* 20px equivalent */
+        padding: 1.25rem; /* 20px equivalent */
+        margin-bottom: 1.25rem; /* 20px equivalent */
+    }
+
+    .bidding-item {
+        font-size: 1rem; /* 16px equivalent */
+        margin-bottom: 1.25rem; /* 20px equivalent */
+    }
+
+    .bid-button {
+        padding: 0.625rem 1.25rem; /* 10px 20px equivalent */
+        font-size: 1rem; /* 16px equivalent */
+    }
+
+    .bidding-image {
+        max-width: 100%;
+        border-radius: 0.5rem; /* 8px equivalent */
+        margin-bottom: 1.25rem; /* 20px equivalent */
+    }
+}
