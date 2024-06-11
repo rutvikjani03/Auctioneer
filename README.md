@@ -9,15 +9,25 @@ The Add Items Page allows users to list items for auction by filling out a form 
 
 ## Screenshots
 
-![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718108715/auction1_wujbl0.png)
-![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718129692/d7jzcwraqsobsxuantd0.png)
-![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718108742/auction3_v9v5bu.png)
-![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718108741/auction4_bbptty.png)
-![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718108718/auction5_yh9ohb.png)
+![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718108715/auction1_wujbl0.png) <br>
 
-## Demo
+![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718129692/d7jzcwraqsobsxuantd0.png) <br>
 
-https://password-generator-tushar7685.vercel.app/
+![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718108742/auction3_v9v5bu.png) <br>
+
+![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718108741/auction4_bbptty.png) <br>
+
+![App Screenshot](https://res.cloudinary.com/dtpaznveo/image/upload/v1718131063/z0ogn3gqljrwqjscylkk.png) <br>
+
+## Pages
+
+ Home <br>
+#### Add_Itens<br>
+#### Category<br>
+#### Live Auction<br>
+#### Contact Us<br>
+#### Register<br>
+
 
 ## 🔗 Links
 
