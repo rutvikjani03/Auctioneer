@@ -21,7 +21,7 @@ The Add Items Page allows users to list items for auction by filling out a form 
 
 ## Pages
 
- Home <br>
+#### Home <br>
 #### Add_Itens<br>
 #### Category<br>
 #### Live Auction<br>
